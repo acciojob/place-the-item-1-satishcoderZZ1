@@ -1,10 +1,14 @@
-.hoder{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-between;
-}
-.item{
-	flex: 0 0 auto;
-	margin-bottom: 10px;
+.holder {
+    display: flex;               /* Enables Flexbox layout */
+    flex-wrap: wrap;            /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Distributes space between items */
+    margin: 0 20px;             /* Optional: Adds margin to the holder */
 }
 
+.item {
+    flex: 1 1 100px;            /* Allows items to grow and shrink, with a base width of 100px */
+    margin: 10px;               /* Adds space around each item */
+    background-color: lightblue; /* Example background color for items */
+    padding: 20px;              /* Adds padding inside items */
+    text-align: center;         /* Centers text inside items */
+}
