@@ -2,16 +2,9 @@
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-between;
-	padding:0 10px;
 }
 .item{
-	flex: 1 1 auto;
-	margin:10px;
-	min-width:50px;
-	background-color: #f0f0f0;
-	padding:20px;
-	text-align:center;
+	flex: 0 0 auto;
+	margin-bottom: 10px;
 }
-.item,first-child{
-	background-color:green;
-}
+
